@@ -1,0 +1,20 @@
+// swift-tools-version:5.5
+// The swift-tools-version declares the minimum version of Swift required to build this package.
+
+import PackageDescription
+
+let package = Package(
+    name: "MoEngageInbox",
+    products: [
+        .library(
+            name: "MoEngageInbox",
+            targets: ["MoEngageInboxSPM","MoEngageInbox"]),
+    ],
+    dependencies: [
+        .package(name: "MoEngage-iOS-SDK",url: "https://github.com/moengage/MoEngage-iOS-SDK.git", from: "8.0.0"),
+    ],
+    targets: [
+        .target(name: "MoEngageInboxSPM", dependencies: ["MoEngage-iOS-SDK"], path: "Sources/..",exclude: ["MoEngageInbox.podspec", "README.md","./Frameworks/MoEngageInbox.xcframework", "LICENSE","CHANGELOG.md"]),
+        .binaryTarget(name: "MoEngageInbox",path: "./Frameworks/MoEngageInbox.xcframework")
+    ]
+)
