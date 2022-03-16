@@ -216,6 +216,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class MOAccountMeta;
 @class NSNumber;
 @class MOInboxUIConfiguration;
+@protocol MOInboxViewControllerDelegate;
 @class UINavigationController;
 @class MOInboxViewController;
 
@@ -225,19 +226,75 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 + (MOInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Method to initialize inbox module.
+/// \param instanceID account identifier.
+///
 - (void)initializeInboxForInstanceID:(NSString * _Nonnull)instanceID;
+/// Method to set the inbox delegate
+/// \param delegate delegate object
+///
+/// \param appID optional account identifier
+///
 - (void)setInboxDelegateWithDelegate:(id <MOInboxDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to fetch inbox messages.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with inbox messages and account info.
+///
 - (void)getInboxMessagesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MOInboxEntry *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch inbox message account.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with inbox message account and account info.
+///
 - (void)getAllNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch unread inbox message count.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with unread message count and account info.
+///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
 - (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to track Inbox clicked
+/// \param cid campaign id.
+///
+/// \param appID optional account identifier
+///
 - (void)trackInboxClickWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to remove inbox message
+/// \param cid campaign id.
+///
+/// \param appID optional account identifier
+///
 - (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to remove all inbox messages
+/// \param appID optional account identifier
+///
 - (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID;
-- (void)presentInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID;
-- (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID;
-- (void)getInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOInboxViewController * _Nullable))completionBlock;
+/// Method to present InboxController
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+- (void)presentInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to push InboxController
+/// \param navController UINavigationController to push the controller
+///
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+- (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to fetch InboxController.
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+///
+/// returns:
+/// MOInboxViewController
+- (void)getInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOInboxViewController * _Nullable))completionBlock;
 @end
 
 
@@ -570,6 +627,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class MOAccountMeta;
 @class NSNumber;
 @class MOInboxUIConfiguration;
+@protocol MOInboxViewControllerDelegate;
 @class UINavigationController;
 @class MOInboxViewController;
 
@@ -579,19 +637,75 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 + (MOInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Method to initialize inbox module.
+/// \param instanceID account identifier.
+///
 - (void)initializeInboxForInstanceID:(NSString * _Nonnull)instanceID;
+/// Method to set the inbox delegate
+/// \param delegate delegate object
+///
+/// \param appID optional account identifier
+///
 - (void)setInboxDelegateWithDelegate:(id <MOInboxDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to fetch inbox messages.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with inbox messages and account info.
+///
 - (void)getInboxMessagesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MOInboxEntry *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch inbox message account.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with inbox message account and account info.
+///
 - (void)getAllNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch unread inbox message count.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with unread message count and account info.
+///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
 - (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to track Inbox clicked
+/// \param cid campaign id.
+///
+/// \param appID optional account identifier
+///
 - (void)trackInboxClickWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to remove inbox message
+/// \param cid campaign id.
+///
+/// \param appID optional account identifier
+///
 - (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to remove all inbox messages
+/// \param appID optional account identifier
+///
 - (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID;
-- (void)presentInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID;
-- (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID;
-- (void)getInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOInboxViewController * _Nullable))completionBlock;
+/// Method to present InboxController
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+- (void)presentInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to push InboxController
+/// \param navController UINavigationController to push the controller
+///
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+- (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to fetch InboxController.
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+///
+/// returns:
+/// MOInboxViewController
+- (void)getInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOInboxViewController * _Nullable))completionBlock;
 @end
 
 
@@ -924,6 +1038,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class MOAccountMeta;
 @class NSNumber;
 @class MOInboxUIConfiguration;
+@protocol MOInboxViewControllerDelegate;
 @class UINavigationController;
 @class MOInboxViewController;
 
@@ -933,19 +1048,75 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 + (MOInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// Method to initialize inbox module.
+/// \param instanceID account identifier.
+///
 - (void)initializeInboxForInstanceID:(NSString * _Nonnull)instanceID;
+/// Method to set the inbox delegate
+/// \param delegate delegate object
+///
+/// \param appID optional account identifier
+///
 - (void)setInboxDelegateWithDelegate:(id <MOInboxDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to fetch inbox messages.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with inbox messages and account info.
+///
 - (void)getInboxMessagesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MOInboxEntry *> * _Nonnull, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch inbox message account.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with inbox message account and account info.
+///
 - (void)getAllNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
+/// Method to fetch unread inbox message count.
+/// \param appID optional account identifier
+///
+/// \param completionBlock completion block with unread message count and account info.
+///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
 - (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to track Inbox clicked
+/// \param cid campaign id.
+///
+/// \param appID optional account identifier
+///
 - (void)trackInboxClickWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to remove inbox message
+/// \param cid campaign id.
+///
+/// \param appID optional account identifier
+///
 - (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Method to remove all inbox messages
+/// \param appID optional account identifier
+///
 - (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID;
-- (void)presentInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID;
-- (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID;
-- (void)getInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOInboxViewController * _Nullable))completionBlock;
+/// Method to present InboxController
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+- (void)presentInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to push InboxController
+/// \param navController UINavigationController to push the controller
+///
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+- (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
+/// Method to fetch InboxController.
+/// \param uiConfig inbox configuration.
+///
+/// \param appID optional account identifier
+///
+///
+/// returns:
+/// MOInboxViewController
+- (void)getInboxViewControllerWithUIConfiguration:(MOInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MOInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MOInboxViewController * _Nullable))completionBlock;
 @end
 
 
