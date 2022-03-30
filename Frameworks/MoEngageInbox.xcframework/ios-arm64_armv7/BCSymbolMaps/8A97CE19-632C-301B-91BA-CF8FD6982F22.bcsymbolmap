@@ -2,8 +2,8 @@ BCSymbolMap Version: 2.0
 Apple clang version 13.0.0 (clang-1300.0.29.3)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk
 iPhoneOS15.0.sdk
-/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-agkiherlqdmvaeakrqtfvsowceuq/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageInbox/IntermediateBuildFilesPath/MoEngage.build/Release-iphoneos/MoEngageInbox.build/DerivedSources/MoEngageInbox_vers.c
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage
+/Users/rakshitha/Library/Developer/Xcode/DerivedData/MoEngage-cmmkomvfnirhvydwlmcpvafliotx/Build/Intermediates.noindex/ArchiveIntermediates/MoEngageInbox/IntermediateBuildFilesPath/MoEngage.build/Release-iphoneos/MoEngageInbox.build/DerivedSources/MoEngageInbox_vers.c
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage
 _$s13MoEngageInbox17MOInboxControllerC9resetUseryyF
 _$s13MoEngageInbox17MOInboxControllerC12updateModuleyyFyycfU_yycfU_yycfU_
 _$s13MoEngageInbox17MOInboxControllerC27syncNotificationsFromServer19withCompletionBlockyyyc_tFySDySSypGSgcfU_
@@ -382,7 +382,7 @@ _$s13MoEngageInbox17MOInboxControllerCN
 Apple clang version 13.0.0 (clang-1300.0.29.1)
 <swift-imported-modules>
 Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxController.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxController.swift
 $sSo21NSAttributedStringKeyaABSYSCWl
 <compiler-generated>
 _conditionallyBridgeFromObjectiveC
@@ -1154,7 +1154,7 @@ _symbolic _____Sg 13MoEngageInbox25MOInboxNavigationBarStyleC
 _symbolic So7UIColorC
 _symbolic So6UIFontC
 _$s13MoEngageInbox22MOInboxUIConfigurationCMF
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxUI/MOInboxUIConfiguration.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxUI/MOInboxUIConfiguration.swift
 $s13MoEngageInbox22MOInboxUIConfigurationCfETo
 $s13MoEngageInbox22MOInboxUIConfigurationCMa
 $sSo7UIColorCMa
@@ -1263,7 +1263,7 @@ _$s13MoEngageInbox20MOInboxTableViewCellC06updateG004withC4Item18andUIConfigurat
 _$s13MoEngageInbox20MOInboxTableViewCellCN
 _OBJC_CLASS_$__TtC13MoEngageInbox20MOInboxTableViewCell
 -private-discriminator _0CCBC83CE58C6A5C6BC90A488435893D
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxUI/MOInboxTableViewCell.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxUI/MOInboxTableViewCell.swift
 $sSo18NSLayoutConstraintCMa
 $s10Foundation4DateVSgWOh
 $s13MoEngageInbox20MOInboxTableViewCellCMa
@@ -1408,7 +1408,7 @@ _$s13MoEngageInbox12MOInboxEntryC11clickedDate10Foundation0G0VSgvMTq
 _$s13MoEngageInbox12MOInboxEntryC6isReadSbvsTq
 _$s13MoEngageInbox12MOInboxEntryC6isReadSbvMTq
 _$s13MoEngageInbox12MOInboxEntryC23withNotificationPayloadACSDySSypG_tKcfCTq
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxData/MOInboxEntry.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxData/MOInboxEntry.swift
 $s12MoEngageCore0aB10ExceptionsOACs5ErrorAAWl
 $s10Foundation4DateVSgMa
 $s13MoEngageInbox12MOInboxEntryCMr
@@ -1634,7 +1634,7 @@ _$s13MoEngageInbox21MOInboxViewControllerC11doneClickedyyypFTq
 _$s13MoEngageInbox21MOInboxViewControllerC18setUpNavigationBaryyFTq
 _$s13MoEngageInbox21MOInboxViewControllerC05setupC2UIyyFTq
 -private-discriminator _A6424ACEE47A11C562FAB40316681424
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxUI/MOInboxViewController.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxUI/MOInboxViewController.swift
 $s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
 $s13MoEngageInbox21MOInboxViewControllerC11viewDidLoadyyFySayAA0D5EntryCG_0aB4Core13MOAccountMetaCSgtcfU_yycfU_TA
 $s13MoEngageInbox21MOInboxViewControllerC11viewDidLoadyyFySayAA0D5EntryCG_0aB4Core13MOAccountMetaCSgtcfU_yycfU_
@@ -1762,7 +1762,7 @@ _$s13MoEngageInbox18MOInboxCoordinatorC12updateModuleyy10Foundation12Notificatio
 _$s13MoEngageInbox18MOInboxCoordinatorC9userResetyy10Foundation12NotificationVFTq
 _$s13MoEngageInbox18MOInboxCoordinatorCN
 -private-discriminator _0E86F6091C6328DA58FE1518C7BC328D
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxCoordinator.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxCoordinator.swift
 $s13MoEngageInbox18MOInboxCoordinatorC03getC10Controller13forInstanceID19withCompletionBlockySSSg_yAA0dG0CSgctFyycfU_y0aB4Core08MOConfigG0CSgcfU_yycfU_TA
 objectdestroy.5
 $s13MoEngageInbox18MOInboxCoordinatorC03getC10Controller13forInstanceID19withCompletionBlockySSSg_yAA0dG0CSgctFyycfU_y0aB4Core08MOConfigG0CSgcfU_TA
@@ -1815,10 +1815,10 @@ _$s13MoEngageInbox18MOInboxStorageDataC6encode4withySo7NSCoderC_tFTq
 _$s13MoEngageInbox18MOInboxStorageDataC5coderACSo7NSCoderC_tcfCTq
 _$s13MoEngageInbox18MOInboxStorageDataCN
 _OBJC_CLASS_$__TtC13MoEngageInbox18MOInboxStorageData
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxData/MOInboxStorageData.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxData/MOInboxStorageData.swift
 $s13MoEngageInbox18MOInboxStorageDataCMa
 $s13MoEngageInbox18MOInboxStorageDataCfETo
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxConstants.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxConstants.swift
 _$s13MoEngageInbox12MOInboxUtilsCfD
 _$s13MoEngageInbox12MOInboxUtilsCMa
 _symbolic $s13MoEngageInbox15MOInboxDelegateP
@@ -1832,7 +1832,7 @@ _symbolic _____ 13MoEngageInbox12MOInboxUtilsC
 _$s13MoEngageInbox12MOInboxUtilsCMF
 _$s13MoEngageInbox12MOInboxUtilsCACycfCTq
 _$s13MoEngageInbox12MOInboxUtilsCN
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxUtils.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInboxUtils.swift
 $s13MoEngageInbox12MOInboxUtilsCMa
 _$s13MoEngageInbox7MOInboxC14sharedInstanceACvgZTo
 _$s13MoEngageInbox7MOInboxCACyc33_8A2E061B896C91A843790E921628E301LlfcTo
@@ -1926,7 +1926,7 @@ _symbolic _____ 13MoEngageInbox7MOInboxC
 _$s13MoEngageInbox7MOInboxCMF
 _symbolic _____Sg 13MoEngageInbox17MOInboxControllerC
 -private-discriminator _8A2E061B896C91A843790E921628E301
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInbox.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/MOInbox.swift
 $s13MoEngageInbox17MOInboxControllerC03getC8Messages19withCompletionBlockyySayAA0D5EntryCG_0aB4Core13MOAccountMetaCSgtc_tFyAA0D11StorageDataCcfU_TA
 $s13MoEngageInbox17MOInboxControllerC07processC12Notification14withCampaignIDySS_tFySayAA0D5EntryCG_0aB4Core13MOAccountMetaCSgtcfU_TA
 objectdestroy.101
@@ -2046,7 +2046,7 @@ _$s13MoEngageInbox18MOInboxModelLegacyC6encode4withySo7NSCoderC_tFTq
 _$s13MoEngageInbox18MOInboxModelLegacyC5coderACSo7NSCoderC_tcfCTq
 _$s13MoEngageInbox18MOInboxModelLegacyCN
 _OBJC_CLASS_$__TtC13MoEngageInbox18MOInboxModelLegacy
-/Users/rakshitha/Documents/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxData/MOInboxDataLegacy.swift
+/Users/rakshitha/MoEngage/MoEngage-iPhone-SDK/MoEFramework/MoEngage/MoEngageInbox/InboxData/MOInboxDataLegacy.swift
 $sSo7NSArrayCMa
 $s13MoEngageInbox18MOInboxModelLegacyCMr
 $s13MoEngageInbox17MOInboxDataLegacyCMa
