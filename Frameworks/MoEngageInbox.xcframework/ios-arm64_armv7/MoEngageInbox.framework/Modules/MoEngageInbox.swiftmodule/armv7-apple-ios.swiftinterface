@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageInbox
 import Foundation
 import MoEngageAnalytics
@@ -39,6 +39,13 @@ import _Concurrency
   @objc public var emptyInboxTextColor: UIKit.UIColor
   @objc public var emptyInboxTextFont: UIKit.UIFont
   @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InboxDelegateHandler : MoEngageCore.InboxDelegate {
+  override public func logout(sdkInstance: MoEngageCore.SdkInstance, onCompleted: @escaping () -> ())
+  override public func updateModule(sdkInstance: MoEngageCore.SdkInstance)
+  override public func initializeInbox(sdkInstance: MoEngageCore.SdkInstance)
+  override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.SdkInstance)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MOInboxEntry : ObjectiveC.NSObject, Foundation.NSCoding {
@@ -96,7 +103,6 @@ extension MoEngageInbox.MOInboxViewController : UIKit.UITableViewDataSource, UIK
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MOInbox : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageInbox.MOInbox
-  @objc public func initializeInbox(forInstanceID instanceID: Swift.String)
   @objc public func setInboxDelegate(delegate: MoEngageInbox.MOInboxDelegate, forAppID appID: Swift.String? = nil)
   @objc public func getInboxMessages(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Array<MoEngageInbox.MOInboxEntry>, MoEngageCore.MOAccountMeta?) -> Swift.Void))
   @objc public func getAllNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MoEngageCore.MOAccountMeta?) -> Swift.Void))
