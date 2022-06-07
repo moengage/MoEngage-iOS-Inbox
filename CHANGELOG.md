@@ -3,10 +3,9 @@
 
 ## Change Log:
 
-### Version 1.1.0  *(30th March, 2022)*
+### Version 1.2.0 *(7th June, 2022)*
 -------------------------------------------
-* Updated the dependency to MoEngage-iOS-SDK 8.1.0.
+* Updated the dependency to MoEngage-iOS-SDK 8.2.0
+* Provided Swift Package manager support to install the SDK.
+* Breaking Inbox from the main SDK.
 
-### Version 1.0.0  *(16th March, 2022)*
--------------------------------------------
-* First release of Inbox module.
