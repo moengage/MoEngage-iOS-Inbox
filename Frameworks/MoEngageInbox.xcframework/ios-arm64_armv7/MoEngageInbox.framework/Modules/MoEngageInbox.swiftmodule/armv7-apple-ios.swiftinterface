@@ -2,8 +2,8 @@
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target armv7-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageInbox
 import Foundation
+import MOCore
 import MoEngageAnalytics
-import MoEngageCore
 @_exported import MoEngageInbox
 import MoEngageMessaging
 import Swift
@@ -41,11 +41,11 @@ import _Concurrency
   @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InboxDelegateHandler : MoEngageCore.InboxDelegate {
-  override public func logout(sdkInstance: MoEngageCore.SdkInstance, onCompleted: @escaping () -> ())
-  override public func updateModule(sdkInstance: MoEngageCore.SdkInstance)
-  override public func initializeInbox(sdkInstance: MoEngageCore.SdkInstance)
-  override public func applicationDidEnterForeground(sdkInstance: MoEngageCore.SdkInstance)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InboxDelegateHandler : MOCore.InboxDelegate {
+  override public func logout(sdkInstance: MOCore.SdkInstance, onCompleted: @escaping () -> ())
+  override public func updateModule(sdkInstance: MOCore.SdkInstance)
+  override public func initializeInbox(sdkInstance: MOCore.SdkInstance)
+  override public func applicationDidEnterForeground(sdkInstance: MOCore.SdkInstance)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MOInboxEntry : ObjectiveC.NSObject, Foundation.NSCoding {
@@ -99,14 +99,14 @@ extension MoEngageInbox.MOInboxViewController : UIKit.UITableViewDataSource, UIK
   @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, commit editingStyle: UIKit.UITableViewCell.EditingStyle, forRowAt indexPath: Foundation.IndexPath)
 }
 @objc public protocol MOInboxDelegate {
-  @objc optional func inboxSyncedSuccessfully(withAccountMeta accountMeta: MoEngageCore.MOAccountMeta)
+  @objc optional func inboxSyncedSuccessfully(withAccountMeta accountMeta: MOCore.MOAccountMeta)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MOInbox : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageInbox.MOInbox
   @objc public func setInboxDelegate(delegate: MoEngageInbox.MOInboxDelegate, forAppID appID: Swift.String? = nil)
-  @objc public func getInboxMessages(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Array<MoEngageInbox.MOInboxEntry>, MoEngageCore.MOAccountMeta?) -> Swift.Void))
-  @objc public func getAllNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MoEngageCore.MOAccountMeta?) -> Swift.Void))
-  @objc public func getUnreadNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MoEngageCore.MOAccountMeta?) -> Swift.Void))
+  @objc public func getInboxMessages(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Array<MoEngageInbox.MOInboxEntry>, MOCore.MOAccountMeta?) -> Swift.Void))
+  @objc public func getAllNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MOCore.MOAccountMeta?) -> Swift.Void))
+  @objc public func getUnreadNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MOCore.MOAccountMeta?) -> Swift.Void))
   @objc public func processInboxNotification(withCampaignID cid: Swift.String, forAppID appID: Swift.String? = nil)
   @objc public func markInboxNotificationClicked(withCampaignID cid: Swift.String, forAppID appID: Swift.String? = nil)
   @objc public func trackInboxClick(withCampaignID cid: Swift.String, forAppID appID: Swift.String? = nil)
