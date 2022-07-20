@@ -49,23 +49,23 @@ import _Concurrency
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MOInboxEntry : ObjectiveC.NSObject, Foundation.NSCoding {
-  @objc final public let appID: Swift.String
-  @objc final public let campaignID: Swift.String
-  @objc final public let notificationPayloadDict: Swift.Dictionary<Swift.String, Any>
-  @objc final public let screenDataDict: Swift.Dictionary<Swift.String, Any>
-  @objc final public let moengageDict: Swift.Dictionary<Swift.String, Any>
+  @objc public var appID: Swift.String
+  @objc public var campaignID: Swift.String?
+  @objc public var notificationPayloadDict: [Swift.String : Any]
+  @objc public var screenDataDict: [Swift.String : Any]
+  @objc public var moengageDict: [Swift.String : Any]
   @objc final public let notificationTitle: Swift.String
   @objc final public let notificationSubTitle: Swift.String
-  @objc final public let notificationBody: Swift.String
+  @objc public var notificationBody: Swift.String
   @objc final public let notificationSound: Swift.String?
   @objc final public let notificationMediaURL: Swift.String?
-  @objc public var receivedDate: Foundation.Date {
+  @objc public var receivedDate: Foundation.Date? {
     get
   }
   @objc public var clickedDate: Foundation.Date? {
     get
   }
-  @objc final public let inboxExpiryDate: Foundation.Date
+  @objc public var inboxExpiryDate: Foundation.Date?
   @objc final public let screenName: Swift.String?
   @objc final public let deepLinkURL: Swift.String?
   @objc final public let richLandingURL: Swift.String?
