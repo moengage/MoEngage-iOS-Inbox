@@ -311,19 +311,19 @@ SWIFT_PROTOCOL("_TtP13MoEngageInbox15MOInboxDelegate_")
 
 SWIFT_CLASS("_TtC13MoEngageInbox12MOInboxEntry")
 @interface MOInboxEntry : NSObject <NSCoding>
-@property (nonatomic, readonly, copy) NSString * _Nonnull appID;
-@property (nonatomic, readonly, copy) NSString * _Nonnull campaignID;
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
+@property (nonatomic, copy) NSString * _Nonnull appID;
+@property (nonatomic, copy) NSString * _Nullable campaignID;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationTitle;
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationSubTitle;
-@property (nonatomic, readonly, copy) NSString * _Nonnull notificationBody;
+@property (nonatomic, copy) NSString * _Nonnull notificationBody;
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationSound;
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationMediaURL;
-@property (nonatomic, readonly, copy) NSDate * _Nonnull receivedDate;
+@property (nonatomic, readonly, copy) NSDate * _Nullable receivedDate;
 @property (nonatomic, readonly, copy) NSDate * _Nullable clickedDate;
-@property (nonatomic, readonly, copy) NSDate * _Nonnull inboxExpiryDate;
+@property (nonatomic, copy) NSDate * _Nullable inboxExpiryDate;
 @property (nonatomic, readonly, copy) NSString * _Nullable screenName;
 @property (nonatomic, readonly, copy) NSString * _Nullable deepLinkURL;
 @property (nonatomic, readonly, copy) NSString * _Nullable richLandingURL;
@@ -725,19 +725,19 @@ SWIFT_PROTOCOL("_TtP13MoEngageInbox15MOInboxDelegate_")
 
 SWIFT_CLASS("_TtC13MoEngageInbox12MOInboxEntry")
 @interface MOInboxEntry : NSObject <NSCoding>
-@property (nonatomic, readonly, copy) NSString * _Nonnull appID;
-@property (nonatomic, readonly, copy) NSString * _Nonnull campaignID;
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
-@property (nonatomic, readonly, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
+@property (nonatomic, copy) NSString * _Nonnull appID;
+@property (nonatomic, copy) NSString * _Nullable campaignID;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
+@property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationTitle;
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationSubTitle;
-@property (nonatomic, readonly, copy) NSString * _Nonnull notificationBody;
+@property (nonatomic, copy) NSString * _Nonnull notificationBody;
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationSound;
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationMediaURL;
-@property (nonatomic, readonly, copy) NSDate * _Nonnull receivedDate;
+@property (nonatomic, readonly, copy) NSDate * _Nullable receivedDate;
 @property (nonatomic, readonly, copy) NSDate * _Nullable clickedDate;
-@property (nonatomic, readonly, copy) NSDate * _Nonnull inboxExpiryDate;
+@property (nonatomic, copy) NSDate * _Nullable inboxExpiryDate;
 @property (nonatomic, readonly, copy) NSString * _Nullable screenName;
 @property (nonatomic, readonly, copy) NSString * _Nullable deepLinkURL;
 @property (nonatomic, readonly, copy) NSString * _Nullable richLandingURL;
