@@ -257,7 +257,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 ///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to track Inbox clicked
 /// \param cid campaign id.
 ///
@@ -269,11 +269,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 ///
 /// \param appID optional account identifier
 ///
-- (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+- (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to remove all inbox messages
 /// \param appID optional account identifier
 ///
-- (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID;
+- (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to present InboxController
 /// \param uiConfig inbox configuration.
 ///
@@ -671,7 +671,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 ///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to track Inbox clicked
 /// \param cid campaign id.
 ///
@@ -683,11 +683,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 ///
 /// \param appID optional account identifier
 ///
-- (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+- (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to remove all inbox messages
 /// \param appID optional account identifier
 ///
-- (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID;
+- (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to present InboxController
 /// \param uiConfig inbox configuration.
 ///
@@ -1085,7 +1085,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 ///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MOAccountMeta * _Nullable))completionBlock;
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to track Inbox clicked
 /// \param cid campaign id.
 ///
@@ -1097,11 +1097,11 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MOInbox * _N
 ///
 /// \param appID optional account identifier
 ///
-- (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+- (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to remove all inbox messages
 /// \param appID optional account identifier
 ///
-- (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID;
+- (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
 /// Method to present InboxController
 /// \param uiConfig inbox configuration.
 ///
