@@ -6,11 +6,11 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<data>
-		p/sjVMiiM8qQ7BZVvwpi24UYv6U=
+		9yZmWxrRpmMFYOXWuGPX4lRR3n8=
 		</data>
 		<key>Headers/MoEngageInbox-Swift.h</key>
 		<data>
-		MlgkaRHRrLJyUVYuGNsUPIborL4=
+		YP8++ojkrNZZmlHMiBmNoi22H5o=
 		</data>
 		<key>Headers/MoEngageInbox.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dXZSkUVsGQZU6c2XgBUJppm+xC8=
+		IfyABdLmj7FS7tkllWXdxls9gGg=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -46,27 +46,27 @@
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		XTWAE6kqLqsLXkkzERT2BTlo8IM=
+		+/bKBRioxJkEzYpzOODgqa8K3vk=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		IH0zlSAsSKkl4+aMSDx0a0L0Og8=
+		xQJgURDV58hrQp5CC5FIVb6VF0k=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		2HqUAtJ7qLGKJ6vzhVsxbl+muos=
+		yLcKVNm8hLO1H8Po00W6O8ZWn3o=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		7UQny8+rrC211RYHAkYV97EGPC4=
+		L9KnJI6+Y3RDJMkQS0VVcSy4vHQ=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		9+pJKtDx0CzfATv4Xi+9nog17tU=
+		XZltfpUVTJbp4U4+8hTbAsfQrT4=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		qH+/pertJMDRdFn4+cBtSqgw35I=
+		F4Tbl4+zavvEEdhoGdok1fQQG0k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,22 +79,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p/sjVMiiM8qQ7BZVvwpi24UYv6U=
+			9yZmWxrRpmMFYOXWuGPX4lRR3n8=
 			</data>
 			<key>hash2</key>
 			<data>
-			zHqsBqdU2gY5kMenXpPuzmIuL9AYaSKq6mRMOTDh8i4=
+			Pc86Hi7UTLy+PqtalNRvzbqEX+t0ONOHoZXvSxtlUME=
 			</data>
 		</dict>
 		<key>Headers/MoEngageInbox-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MlgkaRHRrLJyUVYuGNsUPIborL4=
+			YP8++ojkrNZZmlHMiBmNoi22H5o=
 			</data>
 			<key>hash2</key>
 			<data>
-			3uraR/rSD7uSeMBi4BcvBhhkd1h5VsmGc0bHSp4cVFA=
+			aVL5lvTRO3bfN8r2AZGnsptOrvuSg85k/pv10osNpdU=
 			</data>
 		</dict>
 		<key>Headers/MoEngageInbox.h</key>
@@ -178,66 +178,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XTWAE6kqLqsLXkkzERT2BTlo8IM=
+			+/bKBRioxJkEzYpzOODgqa8K3vk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ppcU1mREhoXQjDdNAWHGBsvY4m2cvYeZzJXH6r6dIBk=
+			AYi42lExzXcoorUDy7kDmpBKO4CVaAFDOVAdBQVs+iI=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IH0zlSAsSKkl4+aMSDx0a0L0Og8=
+			xQJgURDV58hrQp5CC5FIVb6VF0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			buhA0F6HyxsIcMXhylRCVy8RBcC4u/DEEdY2HWwcHsQ=
+			r3bLUu8oNyRPb/le9gYkP631nhrHC02Y3oPTpVsUSxs=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2HqUAtJ7qLGKJ6vzhVsxbl+muos=
+			yLcKVNm8hLO1H8Po00W6O8ZWn3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			vJHKpGbK4SZCrAFunfLVWvfxl705tBiQMiv+qXNM3G0=
+			gCBhQ6wXgRbbwUjML+sT+GyxJg19tLX0TWRagHLqDb8=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7UQny8+rrC211RYHAkYV97EGPC4=
+			L9KnJI6+Y3RDJMkQS0VVcSy4vHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			kTypjoWIp1q45GnT01Xtf1tK0UsXhFGUMJIKCjowcd8=
+			df06ccZRxmfJNYcoXE8NkV8BMX00Wb06PSBcem6hO4k=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9+pJKtDx0CzfATv4Xi+9nog17tU=
+			XZltfpUVTJbp4U4+8hTbAsfQrT4=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VkEgbIYdyvuYBvv5pc0rm8h2qFAe6W3rNwUVy2vluE=
+			dSKPuHRhdjvPnWN3tKo9uWuil230dKheieIuDt+fgXk=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qH+/pertJMDRdFn4+cBtSqgw35I=
+			F4Tbl4+zavvEEdhoGdok1fQQG0k=
 			</data>
 			<key>hash2</key>
 			<data>
-			NfbD3+GPv93mxx3Nro7cau0+v7NEWU/way3+ZXdEzxU=
+			TEkp6o6q7SXzHSF1HUPzLPX/acFeLklhsrD5rNE0YGI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

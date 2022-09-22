@@ -2,6 +2,11 @@
 ===========================
 
 ## Change Log:
+### Version 1.3.1 *(22nd September, 2022)*
+-------------------------------------------
+* Added completionHandler for  API `markInboxNotificationClicked`, `removeInboxMessage` and `removeInboxMessages`.
+* On calling `trackInboxClick`, the notification will be marked as read.
+
 ### Version 1.3.0 *(20th July, 2022)*
 -------------------------------------------
 * Updated the dependency to MoEngage-iOS-SDK 8.3.0
