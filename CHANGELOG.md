@@ -2,6 +2,11 @@
 =================================
 
 ## Change Log:
+### Version 1.4.1  *(30th November, 2022)*
+-------------------------------------------
+* BugFix: Handled removing of duplicate inbox messages when received via sync API.
+* BugFix: Updated the logic for persistent storage of inbox messages.
+
 ### Version 1.4.0  *(18th October, 2022)*
 -------------------------------------------
 * Updated the dependency to MoEngage-iOS-SDK 8.4.0
