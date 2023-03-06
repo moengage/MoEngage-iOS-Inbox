@@ -49,7 +49,7 @@ import _Concurrency
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MoEngageInboxEntry : ObjectiveC.NSObject, Foundation.NSCoding {
-  @objc public var appID: Swift.String
+  @objc final public let appID: Swift.String
   @objc public var campaignID: Swift.String?
   @objc public var notificationPayloadDict: [Swift.String : Any]
   @objc public var screenDataDict: [Swift.String : Any]
