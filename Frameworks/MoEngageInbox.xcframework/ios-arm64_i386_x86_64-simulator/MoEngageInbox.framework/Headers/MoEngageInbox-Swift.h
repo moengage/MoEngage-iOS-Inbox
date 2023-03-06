@@ -223,7 +223,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
-@property (nonatomic, copy) NSString * _Nonnull appID;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appID;
 @property (nonatomic, copy) NSString * _Nullable campaignID;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
@@ -632,7 +632,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
-@property (nonatomic, copy) NSString * _Nonnull appID;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appID;
 @property (nonatomic, copy) NSString * _Nullable campaignID;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
@@ -1041,7 +1041,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
-@property (nonatomic, copy) NSString * _Nonnull appID;
+@property (nonatomic, readonly, copy) NSString * _Nonnull appID;
 @property (nonatomic, copy) NSString * _Nullable campaignID;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
