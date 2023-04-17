@@ -6242,413 +6242,413 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxController.swift",
       "kind": "BooleanLiteral",
       "offset": 462,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 549,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 731,
       "length": 7,
       "value": "\"Inbox\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 898,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 9,
       "value": "\"#525252\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1131,
       "length": 9,
       "value": "\"#E5E5E5\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1230,
       "length": 9,
       "value": "\"#E5E5E5\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1357,
       "length": 9,
       "value": "\"#EEEEEE\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1530,
       "length": 9,
       "value": "\"#111111\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1637,
       "length": 9,
       "value": "\"#424242\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1740,
       "length": 9,
       "value": "\"#616161\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 1845,
       "length": 9,
       "value": "\"#9E9E9E\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 1939,
       "length": 4,
       "value": "17.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 2039,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 2144,
       "length": 4,
       "value": "14.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2225,
       "length": 8,
       "value": "\"dd-MMM\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2305,
       "length": 47,
       "value": "\"No notifications to show!\nCheck again later.\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 2439,
       "length": 9,
       "value": "\"#414141\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
       "offset": 2527,
       "length": 4,
       "value": "17.0"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/Internal\/MoEngageInboxFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/Internal\/MoEngageInboxFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 265,
       "length": 7,
       "value": "\"Inbox\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/Internal\/MoEngageInboxFileStorage.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/Internal\/MoEngageInboxFileStorage.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 11,
       "value": "\"InboxData\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "Dictionary",
       "offset": 420,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "Dictionary",
       "offset": 477,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "Dictionary",
       "offset": 532,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "StringLiteral",
       "offset": 686,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "BooleanLiteral",
       "offset": 1180,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "StringLiteral",
       "offset": 235,
       "length": 18,
       "value": "\"MoEngageInbox.MoEngageInboxEntry\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 673,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
       "kind": "StringLiteral",
       "offset": 857,
       "length": 31,
       "value": "\"com.moengage.inbox.controller\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
       "kind": "StringLiteral",
       "offset": 10253,
       "length": 17,
       "value": "\"backgroundColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
       "kind": "StringLiteral",
       "offset": 10302,
       "length": 11,
       "value": "\"tintColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxViewController.swift",
       "kind": "StringLiteral",
       "offset": 10346,
       "length": 12,
       "value": "\"titleColor\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 7,
       "value": "\"INBOX\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 313,
       "length": 14,
       "value": "\"messagesInfo\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 363,
       "length": 8,
       "value": "\"c_cr_t\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 398,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 479,
       "length": 14,
       "value": "\"last_updated\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 14,
       "value": "\"query_params\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 619,
       "length": 20,
       "value": "\"inbox_last_updated\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 27,
       "value": "\"moe_pending_notifications\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 778,
       "length": 5,
       "value": "\"cid\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 812,
       "length": 7,
       "value": "\"appID\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 862,
       "length": 21,
       "value": "\"notificationPayload\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 916,
       "length": 12,
       "value": "\"screenData\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 963,
       "length": 14,
       "value": "\"moengageDict\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1006,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1044,
       "length": 10,
       "value": "\"subTitle\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1081,
       "length": 6,
       "value": "\"body\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1115,
       "length": 7,
       "value": "\"sound\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1153,
       "length": 10,
       "value": "\"mediaURL\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1198,
       "length": 14,
       "value": "\"receivedDate\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1250,
       "length": 17,
       "value": "\"inboxExpiryDate\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1301,
       "length": 13,
       "value": "\"clickedDate\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1343,
       "length": 8,
       "value": "\"isRead\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1385,
       "length": 13,
       "value": "\"deepLinkURL\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1435,
       "length": 16,
       "value": "\"richLandingURL\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1484,
       "length": 12,
       "value": "\"screenName\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1529,
       "length": 12,
       "value": "\"couponCode\""
     },
     {
-      "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
+      "filePath": "\/Users\/rakshitha\/Documents\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/MoEngageInboxConstants.swift",
       "kind": "StringLiteral",
       "offset": 1577,
       "length": 20,
