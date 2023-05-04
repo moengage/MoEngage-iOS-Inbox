@@ -6,7 +6,7 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<data>
-		B9G443S+PAb8EJlANcHlXiG8i5E=
+		ANtIIIbFxEV7tvXQoYo9vgYWFIU=
 		</data>
 		<key>Headers/MoEngageInbox-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GUoUPt4fMwQL/C2YKbJ3udK5kDU=
+		PpZHZBgFAihDRRNaj1oKC68K8hk=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -28,41 +28,33 @@
 		<data>
 		jccau/vxU86dgncmS+v4LtJGY/A=
 		</data>
-		<key>MoEngageInbox.storyboardc/MoEngageInboxViewController.nib/objects-11.0+.nib</key>
+		<key>MoEngageInbox.storyboardc/MoEngageInboxViewController.nib</key>
 		<data>
 		dfGiJa5h9kh0YMXUKQg7H1UKmxA=
 		</data>
-		<key>MoEngageInbox.storyboardc/MoEngageInboxViewController.nib/runtime.nib</key>
-		<data>
-		dfGiJa5h9kh0YMXUKQg7H1UKmxA=
-		</data>
-		<key>MoEngageInbox.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-11.0+.nib</key>
+		<key>MoEngageInbox.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
 		Q23TkSvieNjXkINDKqgGgZlG71g=
 		</data>
-		<key>MoEngageInbox.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<data>
-		SfCDxWclx5R2o8BNwYjNdaW/FJs=
-		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZEwBTR43WQ4G36q8sA14kz8g9Kc=
+		Pu1E6Ru9rB5H6uWJxDASETaxbcc=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lVfb4yqzxneRKsHGfVcqhWIgqP4=
+		B88EcJRki/3t2lHpP1faH3vLIQc=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		jySmu+EfS8Ipl7xtTsO9YJx5nTw=
+		jTA8aYyiYScHrcVZVtFRCAo4Tjw=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lVfb4yqzxneRKsHGfVcqhWIgqP4=
+		B88EcJRki/3t2lHpP1faH3vLIQc=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vkNqSedkw3YFYS4WdX0ZjFVeJl4=
+		4A41Q6zrN7W0M4eRw/UyIHoJOBs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,21 +65,13 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			B9G443S+PAb8EJlANcHlXiG8i5E=
-			</data>
 			<key>hash2</key>
 			<data>
-			ilS0ixUQ2ikZ4Y8PyVFBi42aXMcq7CLwtnoiQfx0hQY=
+			j4Avkw7POqZ6iCS34SW2z/Bq/ZNiNDB/I93a8scGm8s=
 			</data>
 		</dict>
 		<key>Headers/MoEngageInbox-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IW7h07TA5edHq4LfFg725CrQ/10=
-			</data>
 			<key>hash2</key>
 			<data>
 			0sk1xpLhPz5t9AJQ3K14u6MMl1DJwUtIA+97NhBB6KA=
@@ -95,10 +79,6 @@
 		</dict>
 		<key>Headers/MoEngageInbox.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RymrNO3s2V5655GAp0jJB7JJSds=
-			</data>
 			<key>hash2</key>
 			<data>
 			FLZ1SQg6SeSn0zIFOmct78jCUk5SULczKuiM3WvDp2A=
@@ -106,10 +86,6 @@
 		</dict>
 		<key>LICENSE</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ih5AQhHYR6MqQ2cinlT1HtiVYGQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			DHxoqa3SWsSeiRWX4o3nIP0kO6sTBMPVanytCdzu7ME=
@@ -117,120 +93,62 @@
 		</dict>
 		<key>MoEngageInbox.storyboardc/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jccau/vxU86dgncmS+v4LtJGY/A=
-			</data>
 			<key>hash2</key>
 			<data>
 			Y/FcZ/w0zNoyq0jqtdl4V0MjaU4jxPEzlFxHF6Eshh4=
 			</data>
 		</dict>
-		<key>MoEngageInbox.storyboardc/MoEngageInboxViewController.nib/objects-11.0+.nib</key>
+		<key>MoEngageInbox.storyboardc/MoEngageInboxViewController.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dfGiJa5h9kh0YMXUKQg7H1UKmxA=
-			</data>
 			<key>hash2</key>
 			<data>
 			IbeoVaegTKCNtcuMAWE8A20vKXNIIicmko+IWedfL2M=
 			</data>
 		</dict>
-		<key>MoEngageInbox.storyboardc/MoEngageInboxViewController.nib/runtime.nib</key>
+		<key>MoEngageInbox.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			dfGiJa5h9kh0YMXUKQg7H1UKmxA=
-			</data>
-			<key>hash2</key>
-			<data>
-			IbeoVaegTKCNtcuMAWE8A20vKXNIIicmko+IWedfL2M=
-			</data>
-		</dict>
-		<key>MoEngageInbox.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-11.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Q23TkSvieNjXkINDKqgGgZlG71g=
-			</data>
 			<key>hash2</key>
 			<data>
 			jQnD10OJBmOy6906qL6DOM+AVMZKD7v+Pn2az2EF9EU=
 			</data>
 		</dict>
-		<key>MoEngageInbox.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SfCDxWclx5R2o8BNwYjNdaW/FJs=
-			</data>
-			<key>hash2</key>
-			<data>
-			oY8tUBqMJFGOCLtPrII40TcFc7PDmVv3Bc58EfF5c40=
-			</data>
-		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZEwBTR43WQ4G36q8sA14kz8g9Kc=
-			</data>
 			<key>hash2</key>
 			<data>
-			bcAkM8lt7OyZY+r9qbcHFyQPTuT3vYVdiRNsQ5IZY4c=
+			OIqfRBDY6M7dSNxE5qIFVHwAZcRJ0c0SMmKbcHJynn0=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lVfb4yqzxneRKsHGfVcqhWIgqP4=
-			</data>
 			<key>hash2</key>
 			<data>
-			GMjUVkJU2G7kDUG4eCpJsBUzBcpHis6U5LuaqlAeIV4=
+			3ec7+DVbJ73452WrB6Ti6herbkDI06nze3aQVXV/3LA=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			jySmu+EfS8Ipl7xtTsO9YJx5nTw=
-			</data>
 			<key>hash2</key>
 			<data>
-			cp5KqBddV4udYqXhsgd+JLQXgbSt9rxV6FPqkSAfB1s=
+			Oa1EQl1MmZrvoZg+/BeojkjUwSvF3UvcISqXgbUzKwM=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lVfb4yqzxneRKsHGfVcqhWIgqP4=
-			</data>
 			<key>hash2</key>
 			<data>
-			GMjUVkJU2G7kDUG4eCpJsBUzBcpHis6U5LuaqlAeIV4=
+			3ec7+DVbJ73452WrB6Ti6herbkDI06nze3aQVXV/3LA=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vkNqSedkw3YFYS4WdX0ZjFVeJl4=
-			</data>
 			<key>hash2</key>
 			<data>
-			XCVIrM+jXn1LYELyZ2Q4Ztu58CT0RuTioNK+8mAnLrg=
+			6rmdUeHzDVzzyHDrKaQVAra5QJxnS9fgFm2u3qOHLOA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Yb7BAm7XY07Q9kT+n9186XQoYWs=
-			</data>
 			<key>hash2</key>
 			<data>
 			73MB+Ic3wPFQG6i7rf3G4AlvQQ8AAcF9bNIihILKHkw=
