@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MoEngageInbox'
-  s.version      = '2.8.0'
+  s.version      = '2.8.1'
   s.summary      = 'MoEngage Inbox Campaigns for iOS'
   s.description  = <<-DESC
                  Inbox is a drop-in view controller which contains the read and unread push notifications.

@@ -257,25 +257,44 @@ using UInt = size_t;
 @class NSDate;
 @class NSCoder;
 
+/// Inbox Message model
 SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
+/// MoEngage Account Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull appID;
+/// unique campaign Identifier
 @property (nonatomic, copy) NSString * _Nullable campaignID;
+/// entire notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
+/// Dict which contains  additional key-value for when Navigate To Screen action is performed.
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
+/// Custom moengage dict in notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
+/// notification title
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationTitle;
+/// notification subtitle
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationSubTitle;
+/// notification body
 @property (nonatomic, copy) NSString * _Nonnull notificationBody;
+/// notification sound
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationSound;
+/// media url of the basic notification
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationMediaURL;
+/// time at which notification received by the device
 @property (nonatomic, readonly, copy) NSDate * _Nullable receivedDate;
+/// time at which notification is clicked by the user
 @property (nonatomic, readonly, copy) NSDate * _Nullable clickedDate;
+/// inbox expiry date . By defauly its 30 days
 @property (nonatomic, copy) NSDate * _Nullable inboxExpiryDate;
+/// if the action is Navigate to Screen, then <code>screenName</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable screenName;
+/// if the action is DeepLink, the <code>deepLinkURL</code> indicates the url
 @property (nonatomic, readonly, copy) NSString * _Nullable deepLinkURL;
+/// if the action is RichLanding, then <code>richLandingURL</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable richLandingURL;
+/// if the action is Coupon Code, then <code>couponCode</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable couponCode;
+/// value indicates if the inbox message is clicked by the user.
 @property (nonatomic, readonly) BOOL isRead;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -286,45 +305,75 @@ SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @class UIColor;
 @class UIFont;
 
+/// Model to set up the navigation bar when pushing the Inbox ViewController
 SWIFT_CLASS("_TtC13MoEngageInbox31MoEngageInboxNavigationBarStyle")
 @interface MoEngageInboxNavigationBarStyle : NSObject
+/// The tint color to apply to the navigation bar background.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarColor;
+/// The tint color to apply to the navigation items and bar button items.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTintColor;
+/// Text color for navigation bar title
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTitleColor;
+/// Font for the naviagtion bar title
 @property (nonatomic, strong) UIFont * _Nullable navigationBarTitleFont;
+/// A Boolean value that indicates whether the navigation bar is translucent.
 @property (nonatomic) BOOL navigationBarTransluscent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class MoEngageAccountMeta;
 
+/// An interface for processing Inbox sync actions
 SWIFT_PROTOCOL("_TtP13MoEngageInbox27MoEngageInboxStatusDelegate_")
 @protocol MoEngageInboxStatusDelegate
 @optional
+/// Callback received when inbox sync is completed
+/// \param accountMeta MoEngageAccount information
+///
 - (void)inboxSyncedSuccessfullyWithAccountMeta:(MoEngageAccountMeta * _Nonnull)accountMeta;
 @end
 
 
+/// Model that handles Inbox UI
 SWIFT_CLASS("_TtC13MoEngageInbox28MoEngageInboxUIConfiguration")
 @interface MoEngageInboxUIConfiguration : NSObject
+/// Set the navigation bar title.
 @property (nonatomic, copy) NSString * _Nonnull navigationBarTitle;
+/// Set the style for navigation bar
 @property (nonatomic, strong) MoEngageInboxNavigationBarStyle * _Nullable navigationBarStyle;
+/// Pass true to reload inbox on pull to refresh
 @property (nonatomic) BOOL enablePullToRefresh;
+/// UIColor to be applied for UIRefreshControl
 @property (nonatomic, strong) UIColor * _Nonnull pullToRefreshTintColor;
+/// Background color for Inbox ViewController
 @property (nonatomic, strong) UIColor * _Nonnull inboxViewControllerBGColor;
+/// Background color for Inbox TableView
 @property (nonatomic, strong) UIColor * _Nonnull inboxTableViewBGColor;
+/// Background Color for Inbox Cell
 @property (nonatomic, strong) UIColor * _Nonnull cellDefaultBackgroundColor;
+/// Background Color for unread inbox message
 @property (nonatomic, strong) UIColor * _Nonnull cellUnreadBackgroundColor;
+/// Tint color when inbox message is clicked
 @property (nonatomic, strong) UIColor * _Nonnull cellSelectionTintColor;
+/// Text color for title in inbox cell
 @property (nonatomic, strong) UIColor * _Nonnull cellHeaderLabelTextColor;
+/// Text color for body in inbox cell
 @property (nonatomic, strong) UIColor * _Nonnull cellMessageLabelTextColor;
+/// Text color for date in inbox cell
 @property (nonatomic, strong) UIColor * _Nonnull cellTimestampLabelTextColor;
+/// Font for title in inbox cell
 @property (nonatomic, strong) UIFont * _Nonnull cellHeaderLabelFont;
+/// Font for body in inbox cell
 @property (nonatomic, strong) UIFont * _Nonnull cellMessageLabelFont;
+/// Font for date in inbox cell
 @property (nonatomic, strong) UIFont * _Nonnull cellTimestampLabelFont;
+/// TimeStamp format for the date displayed in Inbox ViewController
 @property (nonatomic, copy) NSString * _Nonnull timestampDateFormat;
+/// Text to be displayed on Inbox ViewController when there are no messages
 @property (nonatomic, copy) NSString * _Nonnull emptyInboxText;
+/// Text color for the message displayed when there are no messages
 @property (nonatomic, strong) UIColor * _Nonnull emptyInboxTextColor;
+/// Font for the message displayed when there are no messages
 @property (nonatomic, strong) UIFont * _Nonnull emptyInboxTextFont;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -365,77 +414,95 @@ SWIFT_PROTOCOL("_TtP13MoEngageInbox35MoEngageInboxViewControllerDelegate_")
 
 @class UINavigationController;
 
+/// Module contains APIs and helper methods to build an inbox.
 SWIFT_CLASS("_TtC13MoEngageInbox16MoEngageSDKInbox")
 @interface MoEngageSDKInbox : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKInbox * _Nonnull sharedInstance;)
 + (MoEngageSDKInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-/// Method to set the inbox delegate
-/// \param delegate delegate object
+/// Fetch inbox messages.
+/// \param appID MoEngage Account Identifier.
 ///
-/// \param appID optional account identifier
-///
-- (void)setInboxDelegateWithDelegate:(id <MoEngageInboxStatusDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
-/// Method to fetch inbox messages.
-/// \param appID optional account identifier
-///
-/// \param completionBlock completion block with inbox messages and account info.
+/// \param completionBlock completion block with inbox messages and account information.
 ///
 - (void)getInboxMessagesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MoEngageInboxEntry *> * _Nonnull, MoEngageAccountMeta * _Nullable))completionBlock;
-/// Method to fetch inbox message account.
-/// \param appID optional account identifier
+/// Fetch inbox message count
+/// \param appID MoEngage Account Identifier.
 ///
-/// \param completionBlock completion block with inbox message account and account info.
+/// \param completionBlock completion block with inbox message account and account information.
 ///
 - (void)getAllNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MoEngageAccountMeta * _Nullable))completionBlock;
-/// Method to fetch unread inbox message count.
-/// \param appID optional account identifier
+/// Fetch unread inbox message count.
+/// \param appID MoEngage Account Identifier.
 ///
-/// \param completionBlock completion block with unread message count and account info.
+/// \param completionBlock completion block with unread message count and account information.
 ///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MoEngageAccountMeta * _Nullable))completionBlock;
-- (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
-/// Method to track Inbox clicked
-/// \param cid campaign id.
+/// Perform the action associated with Inbox message
+/// \param cid campaign Identifier of the inbox message
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
+///
+- (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Mark the inbox message as clicked
+/// \param cid campaign Identifier of the inbox message
+///
+/// \param appID MoEngage Account Identifier.
+///
+/// \param completionHandler completion block with Bool value indicating the status of update.
+///
+- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
+/// Track Inbox clicked event
+/// \param cid campaign Identifier of the inbox message
+///
+/// \param appID MoEngage Account Identifier.
 ///
 - (void)trackInboxClickWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-/// Method to remove inbox message
-/// \param cid campaign id.
+/// Remove inbox message based on Campaign id
+/// \param cid Campaign Identifier of the inbox message
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
+///
+/// \param completionHandler Completion block with Bool value indicating the status of update.
 ///
 - (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
-/// Method to remove all inbox messages
-/// \param appID optional account identifier
+/// Remove all inbox messages
+/// \param appID MoEngage Account Identifier.
+///
+/// \param completionHandler Completion block with Bool value indicating the status of update.
 ///
 - (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
-/// Method to present InboxController
-/// \param uiConfig inbox configuration.
+/// Present InboxController
+/// \param uiConfig instance of <code>MoEngageInboxUIConfiguration</code> which contains inbox UI information.
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
 ///
 - (void)presentInboxViewControllerWithUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
-/// Method to push InboxController
-/// \param navController UINavigationController to push the controller
+/// Push InboxController
+/// \param navController UINavigationController to push the inbox controller
 ///
-/// \param uiConfig inbox configuration.
+/// \param uiConfig instance of <code>MoEngageInboxUIConfiguration</code> which contains inbox UI information
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
 ///
 - (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
-/// Method to fetch InboxController.
-/// \param uiConfig inbox configuration.
+/// Fetch the <code>MoEngageInboxViewController</code>
+/// \param uiConfig instance of <code>MoEngageInboxUIConfiguration</code> which contains inbox UI information
 ///
-/// \param appID optional account identifier
+/// \param delegate instance that confirms to <code>MoEngageInboxViewControllerDelegate</code> protocol.
 ///
+/// \param appID MoEngage Account Identifier.
 ///
-/// returns:
-/// MoEngageInboxViewController
+/// \param completionBlock completion block with <code>MoEngageInboxViewController</code> instance.
+///
 - (void)getInboxViewControllerWithUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MoEngageInboxViewController * _Nullable))completionBlock;
+/// Set the inbox delegate
+/// \param delegate Instance that confirms to <code>MoEngageInboxStatusDelegate</code> protocol.
+///
+/// \param appID MoEngage Account Identifier.
+///
+- (void)setInboxDelegateWithDelegate:(id <MoEngageInboxStatusDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
 @end
 
 #endif
@@ -705,25 +772,44 @@ using UInt = size_t;
 @class NSDate;
 @class NSCoder;
 
+/// Inbox Message model
 SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
+/// MoEngage Account Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull appID;
+/// unique campaign Identifier
 @property (nonatomic, copy) NSString * _Nullable campaignID;
+/// entire notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
+/// Dict which contains  additional key-value for when Navigate To Screen action is performed.
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
+/// Custom moengage dict in notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
+/// notification title
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationTitle;
+/// notification subtitle
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationSubTitle;
+/// notification body
 @property (nonatomic, copy) NSString * _Nonnull notificationBody;
+/// notification sound
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationSound;
+/// media url of the basic notification
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationMediaURL;
+/// time at which notification received by the device
 @property (nonatomic, readonly, copy) NSDate * _Nullable receivedDate;
+/// time at which notification is clicked by the user
 @property (nonatomic, readonly, copy) NSDate * _Nullable clickedDate;
+/// inbox expiry date . By defauly its 30 days
 @property (nonatomic, copy) NSDate * _Nullable inboxExpiryDate;
+/// if the action is Navigate to Screen, then <code>screenName</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable screenName;
+/// if the action is DeepLink, the <code>deepLinkURL</code> indicates the url
 @property (nonatomic, readonly, copy) NSString * _Nullable deepLinkURL;
+/// if the action is RichLanding, then <code>richLandingURL</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable richLandingURL;
+/// if the action is Coupon Code, then <code>couponCode</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable couponCode;
+/// value indicates if the inbox message is clicked by the user.
 @property (nonatomic, readonly) BOOL isRead;
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
@@ -734,45 +820,75 @@ SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @class UIColor;
 @class UIFont;
 
+/// Model to set up the navigation bar when pushing the Inbox ViewController
 SWIFT_CLASS("_TtC13MoEngageInbox31MoEngageInboxNavigationBarStyle")
 @interface MoEngageInboxNavigationBarStyle : NSObject
+/// The tint color to apply to the navigation bar background.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarColor;
+/// The tint color to apply to the navigation items and bar button items.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTintColor;
+/// Text color for navigation bar title
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTitleColor;
+/// Font for the naviagtion bar title
 @property (nonatomic, strong) UIFont * _Nullable navigationBarTitleFont;
+/// A Boolean value that indicates whether the navigation bar is translucent.
 @property (nonatomic) BOOL navigationBarTransluscent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class MoEngageAccountMeta;
 
+/// An interface for processing Inbox sync actions
 SWIFT_PROTOCOL("_TtP13MoEngageInbox27MoEngageInboxStatusDelegate_")
 @protocol MoEngageInboxStatusDelegate
 @optional
+/// Callback received when inbox sync is completed
+/// \param accountMeta MoEngageAccount information
+///
 - (void)inboxSyncedSuccessfullyWithAccountMeta:(MoEngageAccountMeta * _Nonnull)accountMeta;
 @end
 
 
+/// Model that handles Inbox UI
 SWIFT_CLASS("_TtC13MoEngageInbox28MoEngageInboxUIConfiguration")
 @interface MoEngageInboxUIConfiguration : NSObject
+/// Set the navigation bar title.
 @property (nonatomic, copy) NSString * _Nonnull navigationBarTitle;
+/// Set the style for navigation bar
 @property (nonatomic, strong) MoEngageInboxNavigationBarStyle * _Nullable navigationBarStyle;
+/// Pass true to reload inbox on pull to refresh
 @property (nonatomic) BOOL enablePullToRefresh;
+/// UIColor to be applied for UIRefreshControl
 @property (nonatomic, strong) UIColor * _Nonnull pullToRefreshTintColor;
+/// Background color for Inbox ViewController
 @property (nonatomic, strong) UIColor * _Nonnull inboxViewControllerBGColor;
+/// Background color for Inbox TableView
 @property (nonatomic, strong) UIColor * _Nonnull inboxTableViewBGColor;
+/// Background Color for Inbox Cell
 @property (nonatomic, strong) UIColor * _Nonnull cellDefaultBackgroundColor;
+/// Background Color for unread inbox message
 @property (nonatomic, strong) UIColor * _Nonnull cellUnreadBackgroundColor;
+/// Tint color when inbox message is clicked
 @property (nonatomic, strong) UIColor * _Nonnull cellSelectionTintColor;
+/// Text color for title in inbox cell
 @property (nonatomic, strong) UIColor * _Nonnull cellHeaderLabelTextColor;
+/// Text color for body in inbox cell
 @property (nonatomic, strong) UIColor * _Nonnull cellMessageLabelTextColor;
+/// Text color for date in inbox cell
 @property (nonatomic, strong) UIColor * _Nonnull cellTimestampLabelTextColor;
+/// Font for title in inbox cell
 @property (nonatomic, strong) UIFont * _Nonnull cellHeaderLabelFont;
+/// Font for body in inbox cell
 @property (nonatomic, strong) UIFont * _Nonnull cellMessageLabelFont;
+/// Font for date in inbox cell
 @property (nonatomic, strong) UIFont * _Nonnull cellTimestampLabelFont;
+/// TimeStamp format for the date displayed in Inbox ViewController
 @property (nonatomic, copy) NSString * _Nonnull timestampDateFormat;
+/// Text to be displayed on Inbox ViewController when there are no messages
 @property (nonatomic, copy) NSString * _Nonnull emptyInboxText;
+/// Text color for the message displayed when there are no messages
 @property (nonatomic, strong) UIColor * _Nonnull emptyInboxTextColor;
+/// Font for the message displayed when there are no messages
 @property (nonatomic, strong) UIFont * _Nonnull emptyInboxTextFont;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -813,77 +929,95 @@ SWIFT_PROTOCOL("_TtP13MoEngageInbox35MoEngageInboxViewControllerDelegate_")
 
 @class UINavigationController;
 
+/// Module contains APIs and helper methods to build an inbox.
 SWIFT_CLASS("_TtC13MoEngageInbox16MoEngageSDKInbox")
 @interface MoEngageSDKInbox : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKInbox * _Nonnull sharedInstance;)
 + (MoEngageSDKInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-/// Method to set the inbox delegate
-/// \param delegate delegate object
+/// Fetch inbox messages.
+/// \param appID MoEngage Account Identifier.
 ///
-/// \param appID optional account identifier
-///
-- (void)setInboxDelegateWithDelegate:(id <MoEngageInboxStatusDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
-/// Method to fetch inbox messages.
-/// \param appID optional account identifier
-///
-/// \param completionBlock completion block with inbox messages and account info.
+/// \param completionBlock completion block with inbox messages and account information.
 ///
 - (void)getInboxMessagesForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSArray<MoEngageInboxEntry *> * _Nonnull, MoEngageAccountMeta * _Nullable))completionBlock;
-/// Method to fetch inbox message account.
-/// \param appID optional account identifier
+/// Fetch inbox message count
+/// \param appID MoEngage Account Identifier.
 ///
-/// \param completionBlock completion block with inbox message account and account info.
+/// \param completionBlock completion block with inbox message account and account information.
 ///
 - (void)getAllNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MoEngageAccountMeta * _Nullable))completionBlock;
-/// Method to fetch unread inbox message count.
-/// \param appID optional account identifier
+/// Fetch unread inbox message count.
+/// \param appID MoEngage Account Identifier.
 ///
-/// \param completionBlock completion block with unread message count and account info.
+/// \param completionBlock completion block with unread message count and account information.
 ///
 - (void)getUnreadNotificationCountForAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(NSInteger, MoEngageAccountMeta * _Nullable))completionBlock;
-- (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
-/// Method to track Inbox clicked
-/// \param cid campaign id.
+/// Perform the action associated with Inbox message
+/// \param cid campaign Identifier of the inbox message
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
+///
+- (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
+/// Mark the inbox message as clicked
+/// \param cid campaign Identifier of the inbox message
+///
+/// \param appID MoEngage Account Identifier.
+///
+/// \param completionHandler completion block with Bool value indicating the status of update.
+///
+- (void)markInboxNotificationClickedWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
+/// Track Inbox clicked event
+/// \param cid campaign Identifier of the inbox message
+///
+/// \param appID MoEngage Account Identifier.
 ///
 - (void)trackInboxClickWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-/// Method to remove inbox message
-/// \param cid campaign id.
+/// Remove inbox message based on Campaign id
+/// \param cid Campaign Identifier of the inbox message
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
+///
+/// \param completionHandler Completion block with Bool value indicating the status of update.
 ///
 - (void)removeInboxMessageWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
-/// Method to remove all inbox messages
-/// \param appID optional account identifier
+/// Remove all inbox messages
+/// \param appID MoEngage Account Identifier.
+///
+/// \param completionHandler Completion block with Bool value indicating the status of update.
 ///
 - (void)removeInboxMessagesForAppID:(NSString * _Nullable)appID completionHandler:(void (^ _Nullable)(BOOL))completionHandler;
-/// Method to present InboxController
-/// \param uiConfig inbox configuration.
+/// Present InboxController
+/// \param uiConfig instance of <code>MoEngageInboxUIConfiguration</code> which contains inbox UI information.
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
 ///
 - (void)presentInboxViewControllerWithUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
-/// Method to push InboxController
-/// \param navController UINavigationController to push the controller
+/// Push InboxController
+/// \param navController UINavigationController to push the inbox controller
 ///
-/// \param uiConfig inbox configuration.
+/// \param uiConfig instance of <code>MoEngageInboxUIConfiguration</code> which contains inbox UI information
 ///
-/// \param appID optional account identifier
+/// \param appID MoEngage Account Identifier.
 ///
 - (void)pushInboxViewControllerToNavigationController:(UINavigationController * _Nonnull)navController withUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID;
-/// Method to fetch InboxController.
-/// \param uiConfig inbox configuration.
+/// Fetch the <code>MoEngageInboxViewController</code>
+/// \param uiConfig instance of <code>MoEngageInboxUIConfiguration</code> which contains inbox UI information
 ///
-/// \param appID optional account identifier
+/// \param delegate instance that confirms to <code>MoEngageInboxViewControllerDelegate</code> protocol.
 ///
+/// \param appID MoEngage Account Identifier.
 ///
-/// returns:
-/// MoEngageInboxViewController
+/// \param completionBlock completion block with <code>MoEngageInboxViewController</code> instance.
+///
 - (void)getInboxViewControllerWithUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MoEngageInboxViewController * _Nullable))completionBlock;
+/// Set the inbox delegate
+/// \param delegate Instance that confirms to <code>MoEngageInboxStatusDelegate</code> protocol.
+///
+/// \param appID MoEngage Account Identifier.
+///
+- (void)setInboxDelegateWithDelegate:(id <MoEngageInboxStatusDelegate> _Nonnull)delegate forAppID:(NSString * _Nullable)appID;
 @end
 
 #endif

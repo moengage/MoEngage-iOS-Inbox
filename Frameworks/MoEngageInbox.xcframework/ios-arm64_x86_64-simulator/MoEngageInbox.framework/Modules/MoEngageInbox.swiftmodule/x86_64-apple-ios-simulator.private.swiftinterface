@@ -108,7 +108,6 @@ extension MoEngageInbox.MoEngageInboxViewController : UIKit.UITableViewDataSourc
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MoEngageSDKInbox : ObjectiveC.NSObject {
   @objc public static let sharedInstance: MoEngageInbox.MoEngageSDKInbox
-  @objc public func setInboxDelegate(delegate: MoEngageInbox.MoEngageInboxStatusDelegate, forAppID appID: Swift.String? = nil)
   @objc public func getInboxMessages(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Array<MoEngageInbox.MoEngageInboxEntry>, MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getAllNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
   @objc public func getUnreadNotificationCount(forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping ((Swift.Int, MoEngageCore.MoEngageAccountMeta?) -> Swift.Void))
@@ -120,5 +119,6 @@ extension MoEngageInbox.MoEngageInboxViewController : UIKit.UITableViewDataSourc
   @objc public func presentInboxViewController(withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: MoEngageInbox.MoEngageInboxViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
   @objc public func pushInboxViewController(toNavigationController navController: UIKit.UINavigationController, withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: MoEngageInbox.MoEngageInboxViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
   @objc public func getInboxViewController(withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: MoEngageInbox.MoEngageInboxViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (MoEngageInbox.MoEngageInboxViewController?) -> ())
+  @objc public func setInboxDelegate(delegate: MoEngageInbox.MoEngageInboxStatusDelegate, forAppID appID: Swift.String? = nil)
   @objc deinit
 }

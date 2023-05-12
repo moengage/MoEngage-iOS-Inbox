@@ -2,6 +2,10 @@
 ===========================
 
 ## Change Log:
+### Version 2.8.1 *(12th May 2023)*
+-------------------------------------------
+* Added RTL support for Inbox message and date.
+
 ### Version 2.8.0 *(4th May 2023)*
 -------------------------------------------
 * Updated the deployment target to 11.0.

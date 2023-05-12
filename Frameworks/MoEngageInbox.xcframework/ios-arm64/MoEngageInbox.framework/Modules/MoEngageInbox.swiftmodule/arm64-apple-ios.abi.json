@@ -99,7 +99,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -216,7 +217,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -333,7 +335,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -450,7 +453,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -559,7 +563,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -665,7 +670,8 @@
         "moduleName": "MoEngageInbox",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -851,7 +857,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1054,7 +1061,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1241,7 +1249,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1428,7 +1437,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1521,7 +1531,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1614,7 +1625,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1707,7 +1719,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1800,7 +1813,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1893,7 +1907,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1986,7 +2001,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2079,7 +2095,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2172,7 +2189,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2359,7 +2377,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2452,7 +2471,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2558,7 +2578,8 @@
         "moduleName": "MoEngageInbox",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -3043,7 +3064,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3101,7 +3123,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3223,7 +3246,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3355,7 +3379,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3487,7 +3512,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3606,7 +3632,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3656,7 +3683,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3706,7 +3734,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3807,7 +3836,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3873,7 +3903,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3940,7 +3971,8 @@
               "HasStorage",
               "SetterAccess",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4005,7 +4037,8 @@
               "HasStorage",
               "SetterAccess",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4069,7 +4102,8 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4186,7 +4220,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4252,7 +4287,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4318,7 +4354,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4384,7 +4421,8 @@
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4443,7 +4481,8 @@
               "HasStorage",
               "SetterAccess",
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -4562,7 +4601,8 @@
         "moduleName": "MoEngageInbox",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -5299,26 +5339,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoEngageInbox",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MoEngageInbox",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "MoEngageCore",
         "printedName": "MoEngageCore",
         "declKind": "Import",
@@ -5356,7 +5376,8 @@
             "objc_name": "inboxSyncedSuccessfullyWithAccountMeta:",
             "declAttributes": [
               "Optional",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -5370,8 +5391,46 @@
         "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngageInbox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngageInbox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MoEngageInbox",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MoEngageCore",
+        "printedName": "MoEngageCore",
+        "declKind": "Import",
+        "moduleName": "MoEngageInbox"
       },
       {
         "kind": "Import",
@@ -5454,50 +5513,6 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "setInboxDelegate",
-            "printedName": "setInboxDelegate(delegate:forAppID:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MoEngageInboxStatusDelegate",
-                "printedName": "MoEngageInbox.MoEngageInboxStatusDelegate",
-                "usr": "c:@M@MoEngageInbox@objc(pl)MoEngageInboxStatusDelegate"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MoEngageInbox@objc(cs)MoEngageSDKInbox(im)setInboxDelegateWithDelegate:forAppID:",
-            "mangledName": "$s13MoEngageInbox0aB8SDKInboxC03setC8Delegate8delegate8forAppIDyAA0abc6StatusF0_p_SSSgtF",
-            "moduleName": "MoEngageInbox",
-            "objc_name": "setInboxDelegateWithDelegate:forAppID:",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -5777,7 +5792,8 @@
             "objc_name": "processInboxNotificationWithCampaignID:forAppID:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5847,7 +5863,8 @@
             "objc_name": "markInboxNotificationClickedWithCampaignID:forAppID:completionHandler:",
             "declAttributes": [
               "AccessControl",
-              "ObjC"
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -6266,6 +6283,50 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setInboxDelegate",
+            "printedName": "setInboxDelegate(delegate:forAppID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MoEngageInboxStatusDelegate",
+                "printedName": "MoEngageInbox.MoEngageInboxStatusDelegate",
+                "usr": "c:@M@MoEngageInbox@objc(pl)MoEngageInboxStatusDelegate"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MoEngageInbox@objc(cs)MoEngageSDKInbox(im)setInboxDelegateWithDelegate:forAppID:",
+            "mangledName": "$s13MoEngageInbox0aB8SDKInboxC03setC8Delegate8delegate8forAppIDyAA0abc6StatusF0_p_SSSgtF",
+            "moduleName": "MoEngageInbox",
+            "objc_name": "setInboxDelegateWithDelegate:forAppID:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -6274,7 +6335,8 @@
         "moduleName": "MoEngageInbox",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
@@ -6358,126 +6420,126 @@
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 549,
+      "offset": 963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 731,
+      "offset": 1220,
       "length": 7,
       "value": "\"Inbox\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 898,
+      "offset": 1490,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 992,
+      "offset": 1640,
       "length": 9,
       "value": "\"#525252\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1131,
+      "offset": 1834,
       "length": 9,
       "value": "\"#E5E5E5\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1230,
+      "offset": 1984,
       "length": 9,
       "value": "\"#E5E5E5\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1357,
+      "offset": 2156,
       "length": 9,
       "value": "\"#EEEEEE\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1530,
+      "offset": 2438,
       "length": 9,
       "value": "\"#111111\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1637,
+      "offset": 2588,
       "length": 9,
       "value": "\"#424242\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
+      "offset": 2738,
       "length": 9,
       "value": "\"#616161\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 1845,
+      "offset": 2890,
       "length": 9,
       "value": "\"#9E9E9E\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 1939,
+      "offset": 3021,
       "length": 4,
       "value": "17.0"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 2039,
+      "offset": 3162,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 2144,
+      "offset": 3308,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2225,
+      "offset": 3461,
       "length": 8,
       "value": "\"dd-MMM\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2305,
+      "offset": 3626,
       "length": 47,
       "value": "\"No notifications to show!\nCheck again later.\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 2439,
+      "offset": 3837,
       "length": 9,
       "value": "\"#414141\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxUI\/MoEngageInboxUIConfiguration.swift",
       "kind": "FloatLiteral",
-      "offset": 2527,
+      "offset": 3996,
       "length": 4,
       "value": "17.0"
     },
@@ -6512,42 +6574,42 @@
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "Dictionary",
-      "offset": 420,
+      "offset": 557,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "Dictionary",
-      "offset": 477,
+      "offset": 718,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "Dictionary",
-      "offset": 532,
+      "offset": 831,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "StringLiteral",
-      "offset": 686,
+      "offset": 1078,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "BooleanLiteral",
-      "offset": 1180,
+      "offset": 2223,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/rakshitha\/MoEngage\/MoEngage-iPhone-SDK\/MoEFramework\/MoEngage\/MoEngageInbox\/InboxData\/MoEngageInboxEntry.swift",
       "kind": "StringLiteral",
-      "offset": 235,
+      "offset": 259,
       "length": 18,
       "value": "\"MoEngageInbox.MoEngageInboxEntry\""
     },
