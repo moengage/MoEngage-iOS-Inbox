@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MoEngageInbox
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -116,9 +116,9 @@ extension MoEngageInbox.MoEngageInboxViewController : UIKit.UITableViewDataSourc
   @objc public func trackInboxClick(withCampaignID cid: Swift.String, forAppID appID: Swift.String? = nil)
   @objc public func removeInboxMessage(withCampaignID cid: Swift.String, forAppID appID: Swift.String? = nil, completionHandler: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc public func removeInboxMessages(forAppID appID: Swift.String? = nil, completionHandler: ((Swift.Bool) -> Swift.Void)? = nil)
-  @objc public func presentInboxViewController(withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: MoEngageInbox.MoEngageInboxViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
-  @objc public func pushInboxViewController(toNavigationController navController: UIKit.UINavigationController, withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: MoEngageInbox.MoEngageInboxViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil)
-  @objc public func getInboxViewController(withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: MoEngageInbox.MoEngageInboxViewControllerDelegate? = nil, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (MoEngageInbox.MoEngageInboxViewController?) -> ())
-  @objc public func setInboxDelegate(delegate: MoEngageInbox.MoEngageInboxStatusDelegate, forAppID appID: Swift.String? = nil)
+  @objc public func presentInboxViewController(withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: (any MoEngageInbox.MoEngageInboxViewControllerDelegate)? = nil, forAppID appID: Swift.String? = nil)
+  @objc public func pushInboxViewController(toNavigationController navController: UIKit.UINavigationController, withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: (any MoEngageInbox.MoEngageInboxViewControllerDelegate)? = nil, forAppID appID: Swift.String? = nil)
+  @objc public func getInboxViewController(withUIConfiguration uiConfig: MoEngageInbox.MoEngageInboxUIConfiguration? = nil, withInboxWithControllerDelegate delegate: (any MoEngageInbox.MoEngageInboxViewControllerDelegate)? = nil, forAppID appID: Swift.String? = nil, withCompletionBlock completionBlock: @escaping (MoEngageInbox.MoEngageInboxViewController?) -> ())
+  @objc public func setInboxDelegate(delegate: any MoEngageInbox.MoEngageInboxStatusDelegate, forAppID appID: Swift.String? = nil)
   @objc deinit
 }
