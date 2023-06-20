@@ -2,6 +2,11 @@
 =================================
 
 ## Change Log:
+
+### Version 2.9.0 *(20th June 2023)*
+-------------------------------------------
+* iOS breakpoint issue fix by creating framework from Xcode 14.3.1.
+
 ### Version 2.8.1 *(12th May 2023)*
 -------------------------------------------
 * Added RTL support for Inbox message and date.
