@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'MoEngageInbox'
-  s.version      = '2.9.0'
+  s.version      = '2.10.0'
   s.summary      = 'MoEngage Inbox Campaigns for iOS'
   s.description  = <<-DESC
                  Inbox is a drop-in view controller which contains the read and unread push notifications.
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Frameworks/MoEngageInbox.xcframework'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit', 'ImageIO'
-  s.dependency 'MoEngage-iOS-SDK', '>= 9.9.0', '< 10.0.0'
-  s.dependency 'MoEngageRichNotification', '>= 7.9.0', '< 8.0.0'
+  s.dependency 'MoEngage-iOS-SDK', '>= 9.10.0', '< 9.11.0'
+  s.dependency 'MoEngageRichNotification', '>= 7.10.0', '< 7.11.0'
 end
