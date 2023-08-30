@@ -292,41 +292,43 @@ SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
 /// MoEngage Account Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull appID;
-/// unique campaign Identifier
+/// Unique campaign Identifier
 @property (nonatomic, copy) NSString * _Nullable campaignID;
-/// entire notification payload
+/// Entire notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
 /// Dict which contains  additional key-value for when Navigate To Screen action is performed.
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
 /// Custom moengage dict in notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
-/// notification title
+/// Notification title
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationTitle;
-/// notification subtitle
+/// Notification subtitle
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationSubTitle;
-/// notification body
+/// Notification body
 @property (nonatomic, copy) NSString * _Nonnull notificationBody;
-/// notification sound
+/// Notification sound
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationSound;
-/// media url of the basic notification
+/// Media url of the basic notification
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationMediaURL;
-/// time at which notification received by the device
+/// TimeStamp when notification is received by the device
 @property (nonatomic, readonly, copy) NSDate * _Nullable receivedDate;
-/// time at which notification is clicked by the user
+/// TimeStamp when notification is clicked by the user
 @property (nonatomic, readonly, copy) NSDate * _Nullable clickedDate;
-/// inbox expiry date . By defauly its 30 days
+/// Inbox expiry date post which message will be removed from inbox. By defauly its 30 days
 @property (nonatomic, copy) NSDate * _Nullable inboxExpiryDate;
-/// if the action is Navigate to Screen, then <code>screenName</code> indicates the value.
+/// If the action is Navigate to Screen, then <code>screenName</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable screenName;
-/// if the action is DeepLink, the <code>deepLinkURL</code> indicates the url
+/// If the action is DeepLink, the <code>deepLinkURL</code> indicates the url
 @property (nonatomic, readonly, copy) NSString * _Nullable deepLinkURL;
-/// if the action is RichLanding, then <code>richLandingURL</code> indicates the value.
+/// If the action is RichLanding, then <code>richLandingURL</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable richLandingURL;
-/// if the action is Coupon Code, then <code>couponCode</code> indicates the value.
+/// If the action is Coupon Code, then <code>couponCode</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable couponCode;
-/// value indicates if the inbox message is clicked by the user.
+/// Value indicates if the inbox message is clicked by the user.
 @property (nonatomic, readonly) BOOL isRead;
+/// :nodoc:
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+/// :nodoc:
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -338,15 +340,15 @@ SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 /// Model to set up the navigation bar when pushing the Inbox ViewController
 SWIFT_CLASS("_TtC13MoEngageInbox31MoEngageInboxNavigationBarStyle")
 @interface MoEngageInboxNavigationBarStyle : NSObject
-/// The tint color to apply to the navigation bar background.
+/// The tint color to be  applied to the navigationBar background.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarColor;
-/// The tint color to apply to the navigation items and bar button items.
+/// The tint color to  be applied to the navigation items and bar button items.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTintColor;
-/// Text color for navigation bar title
+/// Text color for navigationBar title
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTitleColor;
-/// Font for the naviagtion bar title
+/// Font for the navigationBar title
 @property (nonatomic, strong) UIFont * _Nullable navigationBarTitleFont;
-/// A Boolean value that indicates whether the navigation bar is translucent.
+/// A Boolean value that indicates whether the navigation bar is translucent. Default value is false
 @property (nonatomic) BOOL navigationBarTransluscent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -373,43 +375,44 @@ SWIFT_CLASS("_TtC13MoEngageInbox28MoEngageInboxUIConfiguration")
 @property (nonatomic, strong) MoEngageInboxNavigationBarStyle * _Nullable navigationBarStyle;
 /// Pass true to reload inbox on pull to refresh
 @property (nonatomic) BOOL enablePullToRefresh;
-/// UIColor to be applied for UIRefreshControl
+/// UIColor to be applied for UIRefreshControl. Default value is #525252
 @property (nonatomic, strong) UIColor * _Nonnull pullToRefreshTintColor;
-/// Background color for Inbox ViewController
+/// Background color for Inbox ViewController. Default value is #E5E5E5
 @property (nonatomic, strong) UIColor * _Nonnull inboxViewControllerBGColor;
-/// Background color for Inbox TableView
+/// Background color for Inbox TableView. Default value is #E5E5E5
 @property (nonatomic, strong) UIColor * _Nonnull inboxTableViewBGColor;
-/// Background Color for Inbox Cell
+/// Background Color for Inbox Cell.Default value is #EEEEEE
 @property (nonatomic, strong) UIColor * _Nonnull cellDefaultBackgroundColor;
-/// Background Color for unread inbox message
+/// Background Color for unread inbox message. Default value is white
 @property (nonatomic, strong) UIColor * _Nonnull cellUnreadBackgroundColor;
-/// Tint color when inbox message is clicked
+/// Cell background color when inbox message is clicked. Default value is #111111
 @property (nonatomic, strong) UIColor * _Nonnull cellSelectionTintColor;
-/// Text color for title in inbox cell
+/// Text color for title in inbox cell. Default value is #424242.
 @property (nonatomic, strong) UIColor * _Nonnull cellHeaderLabelTextColor;
-/// Text color for body in inbox cell
+/// Text color for message in inbox cell. Default value is #616161.
 @property (nonatomic, strong) UIColor * _Nonnull cellMessageLabelTextColor;
-/// Text color for date in inbox cell
+/// Text color for date in inbox cell.Default value is #9E9E9E.
 @property (nonatomic, strong) UIColor * _Nonnull cellTimestampLabelTextColor;
-/// Font for title in inbox cell
+/// Font for title in inbox cell. Default font is Bold with size 17.0
 @property (nonatomic, strong) UIFont * _Nonnull cellHeaderLabelFont;
-/// Font for body in inbox cell
+/// Font for message in inbox cell. Default font is Regular with size 14.0
 @property (nonatomic, strong) UIFont * _Nonnull cellMessageLabelFont;
-/// Font for date in inbox cell
+/// Font for timestamp in inbox cell. Default font is Regular with size 14.0
 @property (nonatomic, strong) UIFont * _Nonnull cellTimestampLabelFont;
-/// TimeStamp format for the date displayed in Inbox ViewController
+/// TimeStamp format for the date displayed in Inbox ViewController. Default is “dd-MMM”.
 @property (nonatomic, copy) NSString * _Nonnull timestampDateFormat;
-/// Text to be displayed on Inbox ViewController when there are no messages
+/// Text  displayed on Inbox ViewController when its empty
 @property (nonatomic, copy) NSString * _Nonnull emptyInboxText;
-/// Text color for the message displayed when there are no messages
+/// Text color for the message displayed when inbox is empty. Default color is #414141
 @property (nonatomic, strong) UIColor * _Nonnull emptyInboxTextColor;
-/// Font for the message displayed when there are no messages
+/// Font for the message displayed when inbox is empty. Default font is Regular with size 17.0
 @property (nonatomic, strong) UIFont * _Nonnull emptyInboxTextFont;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSBundle;
 
+/// :nodoc:
 SWIFT_CLASS("_TtC13MoEngageInbox27MoEngageInboxViewController")
 @interface MoEngageInboxViewController : UIViewController
 - (void)viewDidLoad;
@@ -434,19 +437,28 @@ SWIFT_CLASS("_TtC13MoEngageInbox27MoEngageInboxViewController")
 @end
 
 
+/// Inbox View Protocol
 SWIFT_PROTOCOL("_TtP13MoEngageInbox35MoEngageInboxViewControllerDelegate_")
 @protocol MoEngageInboxViewControllerDelegate
 @optional
+/// Callback received when <code>MoEngageInboxViewController</code> is dismissed
 - (void)inboxViewControllerDismissed;
+/// Callback received when inbox item is deleted from <code>MoEngageInboxViewController</code>
+/// \param inboxItem Inbox item model
+///
 - (void)inboxEntryDeleted:(MoEngageInboxEntry * _Nonnull)inboxItem;
+/// Callback received when inbox item is clicked from <code>MoEngageInboxViewController</code>
+/// \param inboxItem Inbox item model
+///
 - (void)inboxEntryClicked:(MoEngageInboxEntry * _Nonnull)inboxItem;
 @end
 
 @class UINavigationController;
 
-/// Module contains APIs and helper methods to build an inbox.
+/// Class to configure the Inbox
 SWIFT_CLASS("_TtC13MoEngageInbox16MoEngageSDKInbox")
 @interface MoEngageSDKInbox : NSObject
+/// Singleton instance
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKInbox * _Nonnull sharedInstance;)
 + (MoEngageSDKInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -475,7 +487,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKI
 /// \param appID MoEngage Account Identifier.
 ///
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-/// Mark the inbox message as clicked
+/// Mark the inbox message as Clicked and Read.
 /// \param cid campaign Identifier of the inbox message
 ///
 /// \param appID MoEngage Account Identifier.
@@ -527,7 +539,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKI
 /// \param completionBlock completion block with <code>MoEngageInboxViewController</code> instance.
 ///
 - (void)getInboxViewControllerWithUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MoEngageInboxViewController * _Nullable))completionBlock;
-/// Set the inbox delegate
+/// Set the inbox delegate to receive the callback on actions performed on <code>MoEngageInboxViewController</code>
 /// \param delegate Instance that confirms to <code>MoEngageInboxStatusDelegate</code> protocol.
 ///
 /// \param appID MoEngage Account Identifier.
@@ -837,41 +849,43 @@ SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 @interface MoEngageInboxEntry : NSObject <NSCoding>
 /// MoEngage Account Identifier
 @property (nonatomic, readonly, copy) NSString * _Nonnull appID;
-/// unique campaign Identifier
+/// Unique campaign Identifier
 @property (nonatomic, copy) NSString * _Nullable campaignID;
-/// entire notification payload
+/// Entire notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull notificationPayloadDict;
 /// Dict which contains  additional key-value for when Navigate To Screen action is performed.
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull screenDataDict;
 /// Custom moengage dict in notification payload
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nonnull moengageDict;
-/// notification title
+/// Notification title
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationTitle;
-/// notification subtitle
+/// Notification subtitle
 @property (nonatomic, readonly, copy) NSString * _Nonnull notificationSubTitle;
-/// notification body
+/// Notification body
 @property (nonatomic, copy) NSString * _Nonnull notificationBody;
-/// notification sound
+/// Notification sound
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationSound;
-/// media url of the basic notification
+/// Media url of the basic notification
 @property (nonatomic, readonly, copy) NSString * _Nullable notificationMediaURL;
-/// time at which notification received by the device
+/// TimeStamp when notification is received by the device
 @property (nonatomic, readonly, copy) NSDate * _Nullable receivedDate;
-/// time at which notification is clicked by the user
+/// TimeStamp when notification is clicked by the user
 @property (nonatomic, readonly, copy) NSDate * _Nullable clickedDate;
-/// inbox expiry date . By defauly its 30 days
+/// Inbox expiry date post which message will be removed from inbox. By defauly its 30 days
 @property (nonatomic, copy) NSDate * _Nullable inboxExpiryDate;
-/// if the action is Navigate to Screen, then <code>screenName</code> indicates the value.
+/// If the action is Navigate to Screen, then <code>screenName</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable screenName;
-/// if the action is DeepLink, the <code>deepLinkURL</code> indicates the url
+/// If the action is DeepLink, the <code>deepLinkURL</code> indicates the url
 @property (nonatomic, readonly, copy) NSString * _Nullable deepLinkURL;
-/// if the action is RichLanding, then <code>richLandingURL</code> indicates the value.
+/// If the action is RichLanding, then <code>richLandingURL</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable richLandingURL;
-/// if the action is Coupon Code, then <code>couponCode</code> indicates the value.
+/// If the action is Coupon Code, then <code>couponCode</code> indicates the value.
 @property (nonatomic, readonly, copy) NSString * _Nullable couponCode;
-/// value indicates if the inbox message is clicked by the user.
+/// Value indicates if the inbox message is clicked by the user.
 @property (nonatomic, readonly) BOOL isRead;
+/// :nodoc:
 - (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+/// :nodoc:
 - (nonnull instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -883,15 +897,15 @@ SWIFT_CLASS("_TtC13MoEngageInbox18MoEngageInboxEntry")
 /// Model to set up the navigation bar when pushing the Inbox ViewController
 SWIFT_CLASS("_TtC13MoEngageInbox31MoEngageInboxNavigationBarStyle")
 @interface MoEngageInboxNavigationBarStyle : NSObject
-/// The tint color to apply to the navigation bar background.
+/// The tint color to be  applied to the navigationBar background.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarColor;
-/// The tint color to apply to the navigation items and bar button items.
+/// The tint color to  be applied to the navigation items and bar button items.
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTintColor;
-/// Text color for navigation bar title
+/// Text color for navigationBar title
 @property (nonatomic, strong) UIColor * _Nullable navigationBarTitleColor;
-/// Font for the naviagtion bar title
+/// Font for the navigationBar title
 @property (nonatomic, strong) UIFont * _Nullable navigationBarTitleFont;
-/// A Boolean value that indicates whether the navigation bar is translucent.
+/// A Boolean value that indicates whether the navigation bar is translucent. Default value is false
 @property (nonatomic) BOOL navigationBarTransluscent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -918,43 +932,44 @@ SWIFT_CLASS("_TtC13MoEngageInbox28MoEngageInboxUIConfiguration")
 @property (nonatomic, strong) MoEngageInboxNavigationBarStyle * _Nullable navigationBarStyle;
 /// Pass true to reload inbox on pull to refresh
 @property (nonatomic) BOOL enablePullToRefresh;
-/// UIColor to be applied for UIRefreshControl
+/// UIColor to be applied for UIRefreshControl. Default value is #525252
 @property (nonatomic, strong) UIColor * _Nonnull pullToRefreshTintColor;
-/// Background color for Inbox ViewController
+/// Background color for Inbox ViewController. Default value is #E5E5E5
 @property (nonatomic, strong) UIColor * _Nonnull inboxViewControllerBGColor;
-/// Background color for Inbox TableView
+/// Background color for Inbox TableView. Default value is #E5E5E5
 @property (nonatomic, strong) UIColor * _Nonnull inboxTableViewBGColor;
-/// Background Color for Inbox Cell
+/// Background Color for Inbox Cell.Default value is #EEEEEE
 @property (nonatomic, strong) UIColor * _Nonnull cellDefaultBackgroundColor;
-/// Background Color for unread inbox message
+/// Background Color for unread inbox message. Default value is white
 @property (nonatomic, strong) UIColor * _Nonnull cellUnreadBackgroundColor;
-/// Tint color when inbox message is clicked
+/// Cell background color when inbox message is clicked. Default value is #111111
 @property (nonatomic, strong) UIColor * _Nonnull cellSelectionTintColor;
-/// Text color for title in inbox cell
+/// Text color for title in inbox cell. Default value is #424242.
 @property (nonatomic, strong) UIColor * _Nonnull cellHeaderLabelTextColor;
-/// Text color for body in inbox cell
+/// Text color for message in inbox cell. Default value is #616161.
 @property (nonatomic, strong) UIColor * _Nonnull cellMessageLabelTextColor;
-/// Text color for date in inbox cell
+/// Text color for date in inbox cell.Default value is #9E9E9E.
 @property (nonatomic, strong) UIColor * _Nonnull cellTimestampLabelTextColor;
-/// Font for title in inbox cell
+/// Font for title in inbox cell. Default font is Bold with size 17.0
 @property (nonatomic, strong) UIFont * _Nonnull cellHeaderLabelFont;
-/// Font for body in inbox cell
+/// Font for message in inbox cell. Default font is Regular with size 14.0
 @property (nonatomic, strong) UIFont * _Nonnull cellMessageLabelFont;
-/// Font for date in inbox cell
+/// Font for timestamp in inbox cell. Default font is Regular with size 14.0
 @property (nonatomic, strong) UIFont * _Nonnull cellTimestampLabelFont;
-/// TimeStamp format for the date displayed in Inbox ViewController
+/// TimeStamp format for the date displayed in Inbox ViewController. Default is “dd-MMM”.
 @property (nonatomic, copy) NSString * _Nonnull timestampDateFormat;
-/// Text to be displayed on Inbox ViewController when there are no messages
+/// Text  displayed on Inbox ViewController when its empty
 @property (nonatomic, copy) NSString * _Nonnull emptyInboxText;
-/// Text color for the message displayed when there are no messages
+/// Text color for the message displayed when inbox is empty. Default color is #414141
 @property (nonatomic, strong) UIColor * _Nonnull emptyInboxTextColor;
-/// Font for the message displayed when there are no messages
+/// Font for the message displayed when inbox is empty. Default font is Regular with size 17.0
 @property (nonatomic, strong) UIFont * _Nonnull emptyInboxTextFont;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class NSBundle;
 
+/// :nodoc:
 SWIFT_CLASS("_TtC13MoEngageInbox27MoEngageInboxViewController")
 @interface MoEngageInboxViewController : UIViewController
 - (void)viewDidLoad;
@@ -979,19 +994,28 @@ SWIFT_CLASS("_TtC13MoEngageInbox27MoEngageInboxViewController")
 @end
 
 
+/// Inbox View Protocol
 SWIFT_PROTOCOL("_TtP13MoEngageInbox35MoEngageInboxViewControllerDelegate_")
 @protocol MoEngageInboxViewControllerDelegate
 @optional
+/// Callback received when <code>MoEngageInboxViewController</code> is dismissed
 - (void)inboxViewControllerDismissed;
+/// Callback received when inbox item is deleted from <code>MoEngageInboxViewController</code>
+/// \param inboxItem Inbox item model
+///
 - (void)inboxEntryDeleted:(MoEngageInboxEntry * _Nonnull)inboxItem;
+/// Callback received when inbox item is clicked from <code>MoEngageInboxViewController</code>
+/// \param inboxItem Inbox item model
+///
 - (void)inboxEntryClicked:(MoEngageInboxEntry * _Nonnull)inboxItem;
 @end
 
 @class UINavigationController;
 
-/// Module contains APIs and helper methods to build an inbox.
+/// Class to configure the Inbox
 SWIFT_CLASS("_TtC13MoEngageInbox16MoEngageSDKInbox")
 @interface MoEngageSDKInbox : NSObject
+/// Singleton instance
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKInbox * _Nonnull sharedInstance;)
 + (MoEngageSDKInbox * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -1020,7 +1044,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKI
 /// \param appID MoEngage Account Identifier.
 ///
 - (void)processInboxNotificationWithCampaignID:(NSString * _Nonnull)cid forAppID:(NSString * _Nullable)appID;
-/// Mark the inbox message as clicked
+/// Mark the inbox message as Clicked and Read.
 /// \param cid campaign Identifier of the inbox message
 ///
 /// \param appID MoEngage Account Identifier.
@@ -1072,7 +1096,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MoEngageSDKI
 /// \param completionBlock completion block with <code>MoEngageInboxViewController</code> instance.
 ///
 - (void)getInboxViewControllerWithUIConfiguration:(MoEngageInboxUIConfiguration * _Nullable)uiConfig withInboxWithControllerDelegate:(id <MoEngageInboxViewControllerDelegate> _Nullable)delegate forAppID:(NSString * _Nullable)appID withCompletionBlock:(void (^ _Nonnull)(MoEngageInboxViewController * _Nullable))completionBlock;
-/// Set the inbox delegate
+/// Set the inbox delegate to receive the callback on actions performed on <code>MoEngageInboxViewController</code>
 /// \param delegate Instance that confirms to <code>MoEngageInboxStatusDelegate</code> protocol.
 ///
 /// \param appID MoEngage Account Identifier.
