@@ -3,6 +3,11 @@
 
 ## Change Log:
 
+### Version 2.12.0 *(15th November 2023)*
+-------------------------------------------
+* BugFix - Notification are not listed in the inbox when app is in background and storage encryption is enabled.
+* BugFix - Fixed the clicked state for inbox message when the notification is clicked from terminate state.
+
 ### Version 2.11.1 *(26th September 2023)*
 -------------------------------------------
 * Updated the dependency to MoEngage-iOS-SDK 9.12.0.

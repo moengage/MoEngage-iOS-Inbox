@@ -6,7 +6,7 @@
 	<dict>
 		<key>CHANGELOG.md</key>
 		<data>
-		6rGAg9cFHCtsd+2LliCcx7BHXvQ=
+		ojom2qKY425HgTwNFTZ38mGBfvg=
 		</data>
 		<key>Headers/MoEngageInbox-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kWgyIwXSi48w/fscObJOu/oXAOA=
+		E/1LrUmO55pmCM+afbWWx4gmWuE=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		pDTnVRWn9jreA9dkrlT1bAIPock=
+		uZ3ShcJaOwdbUuunbSd6OjQKOxE=
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5l8081riqtJM7+oCFEmyHekOo2g=
+		l/jArGQkAGy6AJz7XisUnQTOPIo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EMC/yIfcMUSX6rlx96JERwESwZs4AkOeJN9ZfMryHjw=
+			QuA3pXAQ2gL7oX7dtTRCKkMwTZvWQ7ewSCjvZ8MvG6I=
 			</data>
 		</dict>
 		<key>Headers/MoEngageInbox-Swift.h</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4C7M3kTOO2+cL2oKhqn0Np4iDijYjmy7bv+vyvQHoAI=
+			DFmkpvSdlRN5IFkKQ4xAEKepIUG56fJqfLG1wCBvwGA=
 			</data>
 		</dict>
 		<key>Modules/MoEngageInbox.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DPyZOo9jS4x6OPh9jKXRB1Lfq+FASx15U17R3RM3wMQ=
+			SCIeM23AC/zP4KBrzgzVnRBXvqZvQ/swPLuxjrwVjq8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
