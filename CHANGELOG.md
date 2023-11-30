@@ -3,6 +3,10 @@
 
 ## Change Log:
 
+### Version 2.13.0 *(30th November 2023)*
+-------------------------------------------
+* Updated the dependency to MoEngage-iOS-SDK 9.14.0.
+
 ### Version 2.12.0 *(15th November 2023)*
 -------------------------------------------
 * BugFix - Notification are not listed in the inbox when app is in background and storage encryption is enabled.
