@@ -1,7 +1,7 @@
 framework module MoEngageInbox {
   umbrella header "MoEngageInbox.h"
-
   export *
+
   module * { export * }
 }
 
