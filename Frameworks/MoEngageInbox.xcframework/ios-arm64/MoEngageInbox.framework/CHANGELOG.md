@@ -3,6 +3,10 @@
 
 ## Change Log:
 
+### Version 2.15.1 *(21st March 2024)*
+-------------------------------------------
+* Fixed the app rejection issue due to privacy manifest.
+
 ### Version 2.15.0 *(27th February 2024)*
 -------------------------------------------
 * Refactored network layer.
