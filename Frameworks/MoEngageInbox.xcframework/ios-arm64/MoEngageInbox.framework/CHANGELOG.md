@@ -3,6 +3,10 @@
 
 ## Change Log:
 
+### Version 2.16.1 *(02nd May 2024)*
+-------------------------------------------
+* BugFix: Internal Optimization to handle the inbox storage.
+
 ### Version 2.16.0 *(8th April 2024)*
 -------------------------------------------
 * Handled UserDefault storage limit
