@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '11.0'
 
-  s.source       = { 
-                    :git => 'https://github.com/moengage/MoEngage-iOS-Inbox.git', 
-                    :tag => 'inbox-' + s.version.to_s
-                    }
+  s.source       = {
+    :http => "https://github.com/moengage/MoEngage-iOS-Inbox/releases/download/#{s.version}/MoEngageInbox.xcframework.zip", 
+    :sha256 => '7db67cc01d83850d04afeb86c50b5040e570dee083ecf27a285a9e5f1ddafa92'
+  }
                     
-  s.ios.vendored_frameworks = 'Frameworks/MoEngageInbox.xcframework'
+  s.ios.vendored_frameworks = 'MoEngageInbox.xcframework'
   s.requires_arc = true
   s.frameworks = 'Foundation', 'UIKit', 'ImageIO'
   s.dependency 'MoEngage-iOS-SDK', '>= 9.17.2', '< 9.18.0'
