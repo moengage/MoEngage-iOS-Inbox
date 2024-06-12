@@ -2,6 +2,10 @@
 =================================
 
 ## Change Log:
+### Version 2.16.2 *(12th June 2024)*
+-------------------------------------------
+* Handled environment update with same installation.
+
 ### Version 2.16.1 *(02nd May 2024)*
 -------------------------------------------
 * BugFix: Internal Optimization to handle the inbox storage.
